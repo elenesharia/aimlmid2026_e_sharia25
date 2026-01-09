@@ -7,8 +7,8 @@ The calculated Pearson correlation coefficient is 0.999, which indicates an extr
 In conclusion both the numerical value of Pearson’s correlation coefficient and the graphical visualization confirm a very strong positive linear relationship between the two variables.
 
 **Code**
-""""""""""""""""""""""""""""""""""""""""
-import pandas as pd
+
+'''import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.stats import pearsonr
 
@@ -25,8 +25,7 @@ plt.xlabel("X axis")
 plt.ylabel("Y axis")
 plt.title("Graph")
 plt.grid(True)
-plt.show()
-""""""""""""""""""""""""""""""""""""""""
+plt.show()'''
 
 **Graph**
 <img width="806" height="721" alt="image" src="https://github.com/user-attachments/assets/686fe54b-18bb-4767-86c0-9063f662113a" />
