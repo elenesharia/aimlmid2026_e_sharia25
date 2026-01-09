@@ -62,3 +62,27 @@ Confusion Matrix:
 
 To check how well the model works, it was tested on the part of the dataset that wasn’t used for training (30%). The logistic regression model was run on this test data to predict whether each email was spam or not. Then accuracy was measured by comparing these predictions with the actual labels, showing how often the model got it right. Additionally, a confusion matrix was generated to analyze the classification results in more detail. The confusion matrix shows the number of correctly and incorrectly classified spam and legitimate emails, allowing identification of false positives and false negatives. 
 
+4. The code classifies email text by extracting features such as word count, hyperlinks, capitalized words, and spam-related terms. Hyperlinks are detected with regular expressions, while string analysis identifies capitalized and spam-indicative words. The resulting feature vector is evaluated by the trained logistic regression model to determine whether the email is spam or legitimate, ensuring consistency with the training process.
+
+5. **"""ATTENTION!!!
+You can EARN money NOW with this LIMITED and EXCLUSIVE offer.
+WIN free money by opening the CONFIDENTIAL file attached to this email.
+Click the link below to VIEW and OPEN the file:
+http://freemoney.now.com
+THIS private and SECRET opportunity is available for a short time only.
+Hurry! Start your FREE trial now and receive diet pills as a bonus."""**
+
+ This email was deliberately created to contain multiple characteristics commonly associated with spam messages. It includes a high number of spam-indicative words such as “earn,” “win,” “money,” “free,” “confidential,” “secret,” “exclusive,” “offer,” “click,” “hurry,” "pills", "diet" and “now,” which significantly increases the spam_word_count feature.
+The message also contains a hyperlink, increasing the links feature, and uses several fully capitalized words to attract attention, raising the capital_words count.
+
+6.  **"Dear reader,
+Please find attached the project report for our course.
+Let me know if any changes are needed.
+Best regards,
+Head of the deperatament."**
+
+This email was intentionally written to represent a legit communication in an academic context. It uses a formal and professional tone, does not contain promotional or urgent language, and includes no spam-indicative keywords, links or capitilized words.Thus it decreases the chances of being misclassified as spam and increases the likelihood of being correctly recognized as a valid message.
+
+
+7. A: Class Distribution Study - The bar chart shows the distribution of email classes in the dataset. Legitimate emails (0) and spam emails (1) are displayed side by side, allowing easy comparison. From this chart, it is possible to see whether the dataset is balanced or skewed toward one class, which is important for training a reliable classifier.
+   B: Confusion Matrix Heatmap - The confusion matrix heatmap provides a visual representation of the model’s classification performance on the test dataset. The diagonal elements show correctly classified emails (true positives and true negatives), while the off-diagonal elements represent misclassifications (false positives and false negatives).
