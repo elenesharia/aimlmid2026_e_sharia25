@@ -49,10 +49,10 @@ For classification, a logistic regression model was employed to differentiate be
 
 Logistic Regression Coefficients:
            Feature  Coefficient
-0            words     0.007250
-1            links     0.747564
-2    capital_words     0.421564
-3  spam_word_count     0.714043
+           words   -   0.007250
+            links   -   0.747564
+    capital_words   -  0.421564
+  spam_word_count   -  0.714043
 
 3. Accuracy: 0.9613333333333334
 
