@@ -14,7 +14,7 @@ y = df['is_spam']
 plt.figure()
 y.value_counts().plot(kind='bar')
 plt.title("Spam vs Legitimate")
-plt.xlabel("Class (0 = Legitimate, 1 = Spam)")
+plt.xlabel("Class (0 = Legit, 1 = Spam)")
 plt.ylabel("Number of Emails")
 plt.grid(True)
 plt.show()
@@ -34,9 +34,6 @@ coef = pd.DataFrame({
 print("\nLogistic Regression Coefficients:")
 print(coef)
 
-# ==============================
-# MODEL VALIDATION
-# ==============================
 y_pred = model.predict(X_test)
 
 acc = accuracy_score(y_test, y_pred)
@@ -115,3 +112,4 @@ label, confidence = classify_email(legit_email)
 print("\nLegitimate Email Prediction:")
 print("Class:", "Spam" if label == 1 else "Legitimate")
 print("Confidence:", round(confidence, 3))
+
