@@ -85,4 +85,10 @@ This email was intentionally written to represent a legit communication in an ac
 
 
 7. A: Class Distribution Study - The bar chart shows the distribution of email classes in the dataset. Legitimate emails (0) and spam emails (1) are displayed side by side, allowing easy comparison. From this chart, it is possible to see whether the dataset is balanced or skewed toward one class, which is important for training a reliable classifier.
+
+<img width="640" height="480" alt="fil1" src="https://github.com/user-attachments/assets/9de650c9-151a-43e3-b9f7-b9424f38a883" />
+
+
    B: Confusion Matrix Heatmap - The confusion matrix heatmap provides a visual representation of the model’s classification performance on the test dataset. The diagonal elements show correctly classified emails (true positives and true negatives), while the off-diagonal elements represent misclassifications (false positives and false negatives).
+<img width="640" height="480" alt="fil2" src="https://github.com/user-attachments/assets/bbcb1dcc-4bae-4ecd-8625-f832e6582be6" />
+
