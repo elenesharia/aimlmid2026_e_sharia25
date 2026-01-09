@@ -41,8 +41,8 @@ plt.show()
 
 **Task 2 - Spam email detection**
 
-1. Data File -
-2. Code -
+1. Data File - https://github.com/elenesharia/aimlmid2026_e_sharia25/blob/main/MIdterm/Spam%20filter/e_sharia25_37142.csv
+2. Code - https://github.com/elenesharia/aimlmid2026_e_sharia25/blob/main/MIdterm/Spam%20filter/filter.py
 The dataset was imported using the pandas library from a CSV file that contains precomputed numerical features extracted from email messages. Data includes the total number of words, the number of embedded links, the count of fully capitalized words, and the number of words associated with spam-related terms. These attributes were grouped into the feature matrix X, while the target variable is_spam was stored in the label vector y (0 represents legitimate emails and 1 represents spa). This data preparation step enables the application of supervised machine learning techniques.
 
 For classification, a logistic regression model was employed to differentiate between spam and legitimate emails. The model was implemented using the LogisticRegression class from the scikit-learn library and trained on 70% of the available dataset. The maximum number of iterations was set to 1000 to ensure fully convergence of the training process.
