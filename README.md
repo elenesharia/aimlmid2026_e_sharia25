@@ -48,7 +48,7 @@ The dataset was imported using the pandas library from a CSV file that contains 
 For classification, a logistic regression model was employed to differentiate between spam and legitimate emails. The model was implemented using the LogisticRegression class from the scikit-learn library and trained on 70% of the available dataset. The maximum number of iterations was set to 1000 to ensure fully convergence of the training process.
 
 Logistic Regression Coefficients:
-           Feature  Coefficient
+           
            words   -   0.007250
             links   -   0.747564
     capital_words   -  0.421564
